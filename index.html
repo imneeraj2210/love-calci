@@ -20,15 +20,7 @@
             font-weight: bold;
         }
     </style>
-   
- </head>
- <body>
-   <h2>Love Calculator</h2>
-    <a>Enter your name:</a> <input>
-    <a>Enter your lover's name:</a> <input>
-    <button type="button" onclick="myFunction()">Calculate your love score</button>
-    <p id="demo"></p>
-<script>
+   <script>
 function myFunction() {
     var love=Math.random()*100;
     var love_score = Math.floor(love)+1;
@@ -37,5 +29,13 @@ function myFunction() {
   document.getElementById("demo").innerHTML = "Your love score is :" +love_score+"%";
 }
 </script>
+ </head>
+ <body>
+   <h2>Love Calculator</h2>
+    <a>Enter your name:</a> <input>
+    <a>Enter your lover's name:</a> <input>
+    <button type="button" onclick="myFunction()">Calculate your love score</button>
+    <p id="demo"></p>
  </body>
+
  </html>
